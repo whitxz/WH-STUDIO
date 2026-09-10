@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-monocromatico-branco-gradiente_23-2149000966.jpg?w=2000&t=st=1694930738~exp=1694931338~hmac=91a22933ea61da2c3e9e10222f5206af61062bbea8db13986700b6f5bce034b6);
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #e5e3e88f,  #867f7f76);
+}
+
+.lista-projetos {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-content: right;
+   gap: 70px;
+
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: left;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    color: rgb(9, 6, 6);
+    text-decoration: none;
+}
+
+.Projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+   border: 2px solid white;
+   border-radius: 10px;
+   Background: linear-gradient(to bottom, #e5e3e88f,  #867f7f76);
+   padding: 20px 80px;
+   
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
+.wh{
+     border: 2px solid white;
+   border-radius: 10px;
+   Background: linear-gradient(to bottom, #e5e3e88f,  #867f7f76);
+   padding: 10px 20px;
+   border-left: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 24px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+   font-style: italic;
+   text-align: justify;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    column-gap: normal;
+}
